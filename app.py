@@ -5,10 +5,10 @@ import uvicorn
 from database import init, shutdown
 
 app = FastAPI(
-    title="Fishka API",
+    title="API",
     description="Beta version",
     version="BetaV0.1.0",
-    contact={"whoami":"Ryzhik", "tg":"@printmyname"}
+    contact={"whoami":"Fedor", "tg":"@printmyname"}
 )
 
 @app.on_event("startup")
